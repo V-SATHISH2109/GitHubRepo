@@ -84,7 +84,6 @@ const App: React.FC = () => {
                       <span className="text-gray-700 font-medium">{repo.owner.login}</span>
                     </div>
                     <div className="flex items-center gap-1 text-gray-600 font-medium">
-                      {/* <span>⭐</span> */}
                       <img src={starIcon} alt="stars" className="w-5 h-5 object-contain" />
                       <span>{(repo.stargazers_count / 1000).toFixed(1)}k</span>
                     </div>
